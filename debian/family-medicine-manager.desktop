@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=家庭慢性病患者药物管理系统
+Name[en]=Family Medicine Manager
+Comment=管理家庭慢性病患者的药物信息和购买提醒
+Comment[en]=Manage family chronic disease medication information and purchase reminders
+Exec=family-medicine-manager
+Icon=family-medicine-manager
+Terminal=false
+Categories=Utility;Medical;
+Keywords=medicine;health;family;reminder; 

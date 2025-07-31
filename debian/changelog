@@ -1,0 +1,9 @@
+family-medicine-manager (1.0.0-1) unstable; urgency=medium
+
+  * 初始版本发布
+  * 实现药物信息管理功能
+  * 实现自动提醒功能
+  * 支持多用户管理
+  * 数据持久化存储
+
+ -- Baichua Wen <sccxboy@gmail.com>  Wed, 30 Jul 2025 17:11:11 +0800 

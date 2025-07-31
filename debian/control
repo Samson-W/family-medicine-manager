@@ -1,0 +1,21 @@
+Source: family-medicine-manager
+Section: utils
+Priority: optional
+Maintainer: Baichua Wen <sccxboy@gmail.com>
+Build-Depends: debhelper (>= 11), python3, python3-setuptools
+Standards-Version: 4.1.4
+
+Package: family-medicine-manager
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3-tk, python3-pandas, tkcalendar
+Description: 家庭慢性病患者药物管理系统
+ 这是一个用于管理家庭慢性病患者药物信息的桌面应用程序。
+ 主要功能包括：
+ .
+  * 药物信息的录入、查询、删除、编辑
+  * 自动计算下次购药时间
+  * 药物购买提醒功能
+  * 支持多用户管理
+  * 数据持久化存储
+ .
+ 适用于需要长期管理慢性病药物的家庭使用。 

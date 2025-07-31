@@ -1,0 +1,24 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	dh_auto_install
+	# 安装主程序
+	mkdir -p debian/family-medicine-manager/usr/bin
+	cp medicine_manager.py debian/family-medicine-manager/usr/bin/family-medicine-manager
+	chmod +x debian/family-medicine-manager/usr/bin/family-medicine-manager
+	
+	# 安装桌面文件
+	mkdir -p debian/family-medicine-manager/usr/share/applications
+	cp debian/family-medicine-manager.desktop debian/family-medicine-manager/usr/share/applications/
+	
+	# 安装图标
+	mkdir -p debian/family-medicine-manager/usr/share/icons/hicolor/48x48/apps
+	cp debian/family-medicine-manager.png debian/family-medicine-manager/usr/share/icons/hicolor/48x48/apps/
+	
+	# 安装文档
+	mkdir -p debian/family-medicine-manager/usr/share/doc/family-medicine-manager
+	cp README.md debian/family-medicine-manager/usr/share/doc/family-medicine-manager/
+	cp debian/copyright debian/family-medicine-manager/usr/share/doc/family-medicine-manager/ 
