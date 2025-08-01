@@ -2,6 +2,20 @@
 
 这是一个基于Python Tkinter的家庭慢性病患者药物管理系统，具有图形用户界面，支持多用户药物信息的录入、查询、修改、删除和智能买药提醒功能。
 
+## 需要依赖
+```
+python>=3.10
+tkcalendar
+```
+
+## Debian系列版本(目前Linux mint 21.3&Debian 12验证通过)
+```
+sudo apt-get install  /full-path-name/family-medicine-manager_1.0.0-1_all.deb
+```
+
+## Windows版本
+windows-version目录下的medicine_manager.exe可直接运行，medicine_manager.py可直接在命令行中使用python命令行进行运行。
+
 ## 功能特性
 
 ### 1. 多用户药物管理
